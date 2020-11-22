@@ -2,7 +2,7 @@
 The chapter website for [One for the World @ Penn](https://pennoftw.org).
 Built using React.js.
 
-##Setting Up
+## Setting Up
 - Install [Node.JS](https://nodejs.org/en/download/)
 - Open up whatever folder you'd like to work in VS Code
 - Open a new terminal and run the following:
@@ -13,6 +13,6 @@ $ npm install
 $ npm start
 ```
 
-##Important Notes
+## Important Notes
 - When when committing changes, commit from ```chapter-website``` folder
 - When running ```npm start``` run from ```frontend``` folder
