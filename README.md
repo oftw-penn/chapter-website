@@ -12,3 +12,7 @@ $ cd frontend
 $ npm install
 $ npm start
 ```
+
+##Important Notes
+- When when committing changes, commit from ```chapter-website``` folder
+- When running ```npm start``` run from ```frontend folder```
