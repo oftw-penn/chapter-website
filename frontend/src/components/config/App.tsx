@@ -9,7 +9,7 @@ import ProjectsPage from '../../views/Projects';
 import MissionPage from '../../views/Mission';
 import StoriesPage from '../../views/Stories';
 import AlumniPage from '../../views/Alumni';
-import TeamPage from '../../views/Alumni';
+import TeamPage from '../../views/Team';
 
 function App() {
   return (
