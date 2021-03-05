@@ -5,6 +5,7 @@ import { createGlobalStyle } from 'styled-components';
 import App from './components/config/App';
 import * as serviceWorker from './serviceWorker';
 import Theme, { ThemeType } from './components/config/Theme';
+import { Grommet } from 'grommet';
 
 const GlobalStyle = createGlobalStyle<{ theme: ThemeType }>`
   html {
@@ -34,14 +35,14 @@ const GlobalStyle = createGlobalStyle<{ theme: ThemeType }>`
 `;
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Grommet plain>
     <Theme>
       <GlobalStyle />
       <BrowserRouter>
         <App />
       </BrowserRouter>
     </Theme>
-  </React.StrictMode>,
+  </Grommet>,
   document.getElementById('root'),
 );
 
