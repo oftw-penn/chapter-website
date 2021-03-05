@@ -14,7 +14,6 @@ function LandingPage() {
       <TextBlockLink to="/Projects">Projects</TextBlockLink>
       <TextBlockLink to="/Stories">Stories</TextBlockLink>
       <TextBlockLink to="/Team">Team</TextBlockLink>
-      <TextBlockLink to="/Testing">Testing</TextBlockLink>
     </div>
   );
 }
