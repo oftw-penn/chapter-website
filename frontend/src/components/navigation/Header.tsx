@@ -1,44 +1,3 @@
-/*import React from 'react';
-import styled from 'styled-components';
-import { NavbarLink } from '../core/Link';
-
-const Content = styled.div`
-  height: 50px;
-  padding: 20px;
-  text-align: center;
-`;
-
-const LeftHeader = styled(NavbarLink)`
-  float: left;
-  margin-left: 50px;
-  font-weight: bold;
-`;
-
-const RightHeader = styled(NavbarLink)`
-  float: right;
-  margin-right: 50px;
-`;
-
-// Note: Can also create a center header with simply display: inline-block
-
-function Header() {
-  return (
-    <Content>
-      <nav>
-        <LeftHeader to="/">
-          OFTW @ Penn
-        </LeftHeader>
-        <RightHeader to="/roadmap">
-          Manifesto
-        </RightHeader>
-      </nav>
-    </Content>
-  );
-}
-
-export default Header;
-*/
-
 import React, { Component } from 'react';
 import { MenuItems } from "./MenuItems"
 //import { Button } from "../Button"
@@ -55,7 +14,7 @@ class Header extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">OFTW @ Penn!{/*<i className="fab fa-react"></i>*/}</h1>
+                <h1 className="navbar-logo">OFTW @ Penn!{}</h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
@@ -70,10 +29,11 @@ class Header extends Component {
                         )
                     })}
                 </ul>
-                {/*<Button>Sign Up</Button>*/}
+                {}
             </nav>
         )
     }
 }
 
 export default Header
+
